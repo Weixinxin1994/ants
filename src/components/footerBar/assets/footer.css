@@ -1,0 +1,100 @@
+
+footer {
+    background: url(./images/footer_pic.jpg) no-repeat 0 0;
+    color: #FFF;
+    text-align:center
+}
+footer a,footer a:hover {
+    color: #ffffff;
+}
+ .ant-link{font-size: 12px; color:#555555;margin:5px auto 10px; height: 20px;overflow: hidden}
+ .ant-link div{float: left;width: 6%;}
+ .ant-link dl{float: right; width: 94%;}
+ .ant-link dd{float: left;width: 100%;}
+ .ant-link dd a{position: relative;float: left;padding-right:5px;margin-right: 5px; height: 20px;overflow: hidden; color:#555555;}
+ .ant-link dd a:after{content: '';height: 10px; position: absolute;top: 6px;right: 0; border-left: 1px solid #333}
+ .ant-link dd a:last-child:after{border-left: none}
+.do_well {
+    width: 559px;
+    color: #ffffff;
+    float: left;
+  
+}
+.do_well .p1 {
+    width: 100%;
+    font-size: 40px;
+    position: relative;
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 20px;
+	text-align:left;
+}
+.do_well .p1 i {
+    width: 120px;
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    border-bottom: 5px solid #F6D410;
+}
+.do_well .p1 span {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    font-size: 12px;
+}
+.do_well .p1 .text1
+{
+    bottom: 63px;
+}
+.do_well .p3 {
+    width: 100%;
+    height: 60px;
+    font-size: 14px;
+    margin-top: 20px;
+	text-align:left;
+}
+.code_img {
+    width: 130px;
+    float: right;
+    margin-top: 38px;
+    text-align: center;
+    color: #FFF
+}
+.code_img img {
+    width: 100%;
+    height: 100%;
+}
+.footer_b {
+    border-top: 1px solid #FFF;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.footer_l {
+    float: left;
+    background: url(./images/footer_icon.png) no-repeat;
+    background-position: 1px 1p;
+}
+.footer_l p {
+    text-align: left;
+    padding-left: 20px;
+    line-height: 12px;
+}
+.footer_r {
+    text-align: left;
+    float: right;
+    background: url(./images/in_17.jpg) right top no-repeat;
+    padding: 0 70px 0 0;
+    min-height: 70px;
+    width: 382px;
+}
+.footer_r a {
+    font-size: 14px;
+    padding: 2px 6px;
+    display: inline-block;
+    
+}
+.footer_r p {
+    font-size: 14px;
+    color: #ffffff;
+    padding-left: 10px;
+    margin-top: 7px;
+}

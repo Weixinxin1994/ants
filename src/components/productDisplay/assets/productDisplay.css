@@ -1,0 +1,137 @@
+
+.k h1 {
+    font-size: 40px;
+    color: #505050;
+    margin-bottom: 20px;
+}
+.k .more {
+    text-align: center;
+}
+.k_service ul {
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+.k_service li {
+    position: relative;
+    width:20%;
+    height:215px;
+    overflow: hidden;
+    float: left;
+    font-size: 20px;
+}
+.k_service li img{
+    width: 100%;
+    height: 100%;
+}
+.k_service li dl {
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #FFF
+}
+.k_service li dt {
+    width: 0;
+    height: 0;
+    border-width: 0px 6px 6px 6px;
+    position: absolute;
+    left: 48%;
+    top: -13%;
+    border-style: solid;
+    border-color: transparent  transparent rgba(0, 0, 0, .5) transparent;
+}
+.k_service li dd {
+    padding: 10px 0;
+}
+.k_service div.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+}
+.k_service div.mask span {
+    display: block;
+    width: 84px;
+    height: 84px;
+    margin: 0 auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin: -63px 0 0 -46px
+}
+.k_service li div.mask span em {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -36px 0 0 -38px;
+    width: 84px;
+    height: 84px;
+    background: url(./images/icon02.png) no-repeat;
+    -moz-transform: rotateY(-360deg) translateY(130px) scale(0.3, 0.3);
+    -webkit-transform: rotateY(-360deg) translateY(130px) scale(0.3, 0.3);
+    -o-transform: rotateY(-360deg) translateY(130px) scale(0.3, 0.3);
+    transform: rotateY(-360deg) translateY(130px) scale(0.3, 0.3);
+    opacity: 0;
+}
+.k_service li div.mask h3 {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    font-size: 20px;
+    -moz-transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -o-transform: translateY(20px);
+    transform: translateY(20px);
+    margin-top: 46px;
+    text-align: center;
+    color: #e2e2e2;
+    opacity: 0
+}
+.k_service li:hover {
+    -moz-transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s
+}
+.k_service li:hover dl {
+    opacity: 0;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.k_service li:hover div.mask {
+    background: rgba(0, 0, 0, 0.5);
+    -moz-transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s
+}
+.k_service li:hover div.mask span em {
+    perspective: 600px;
+    -moz-transform: rotateY(0deg) translateY(0);
+    -webkit-transform: rotateY(0deg) translateY(0);
+    -o-transform: rotateY(0deg) translateY(0);
+    transform: rotateY(0deg) translateY(0);
+    -moz-transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    opacity: 1
+}
+.k_service li:hover div.mask h3 {
+    -moz-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+    -moz-transition: all 0.5s ease 0.4s;
+    -webkit-transition: all 0.5s ease 0.4s;
+    -o-transition: all 0.5s ease 0.4s;
+    transition: all 0.5s ease 0.4s;
+    opacity: 1
+}

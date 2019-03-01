@@ -1,0 +1,103 @@
+section {
+    min-width: 1200px;
+}
+
+.img_url {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin: 5px 60px 0 60px;
+    color: #FFF;
+    position: relative;
+    -webkit-transition: background 0.5s ease-out;
+    -moz-transition: background 0.5s ease-out;
+    -o-transition: background 0.5s ease-out;
+    -ms-transition: background 0.5s ease-out;
+    transition: background 0.5s ease-out
+}
+.img_url a{display:block;position:absolute;width:250px;height:250px;}
+.img_url .info {
+    width: 170px;
+    margin: 10px auto 0;
+	text-align:center;
+}
+.img_url .info >h1 {
+    margin-top: 125px;
+}
+.img_url h1 {
+    text-align: center;
+    font-size: 18px;
+}
+.img_url .detail {
+    display: none;
+    width: 180px;
+    position: absolute;
+    top: 20%;
+    /* left: 10%; */
+    z-index: 1;
+}
+.img_url .detail h1 {
+    margin-bottom: 10px;
+}
+.img1 {
+    background: url(../images/round_orange01.png) no-repeat;
+    background-size: 180px 180px;
+
+}
+.img2 {
+    background: url(../images/round_blue.png) no-repeat;
+    background-size: 180px 180px;
+    
+}
+.img3 {
+    background: url(../images/round_green.png) no-repeat;
+    background-size: 180px 180px;
+    
+}
+.img4 {
+    background: url(../images/round_orange.png) no-repeat;
+    margin-right: 0;
+    background-size: 180px 180px;
+    
+}
+.img1:hover {
+    background: url(../images/round_orange03.png) no-repeat;
+    background-size: 180px 180px;
+    
+}
+.img2:hover {
+    background: url(../images/round_blue02.png) no-repeat;
+    background-size: 180px 180px;
+    
+}
+.img3:hover {
+    background: url(../images/round_green02.png) no-repeat;
+    background-size: 180px 180px;
+    
+}
+.img4:hover {
+    background: url(../images/round_orange02.png) no-repeat;
+    background-size: 180px 180px;
+    
+}
+.info h1{
+    color: #FFF;
+}
+.detail h1, p{
+    /* color: black */
+}
+.s-case {
+    font-size: 40px;
+    color: #505050;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.s-info {
+    text-align: center;
+    font-size: 18px;
+    color: #8b8a8a;
+    margin-bottom: 30px;
+}

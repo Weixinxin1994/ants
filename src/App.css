@@ -1,5 +1,11 @@
+@import '~antd/dist/antd.css';
+
+
+
 .App {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .App-logo {
@@ -30,4 +36,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+.ant-menu{
+  background-color: white;
+  color:  black;
+  opacity:0.8
+}
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 450px;
+  line-height: 160px;
+  /* background: #364d79; */
+
+  overflow: hidden;
+  /* background-image: url('./components/banner/assets/image/041522424182.jpg') */
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+
+.clear {
+  clear: both;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  /* margin-top: 10px; */
+}
+.row {
+  float: left;
+  width: 100%;
+  display: block;
+}
+.ant-menu-item{
+  position: fixed;
+}
+.ant-menu  {
+  
 }
